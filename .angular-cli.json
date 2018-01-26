@@ -19,6 +19,8 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/bootstrap/scss/bootstrap.scss",
+        "assets/sass/paper-dashboard.scss",
         "styles.css"
       ],
       "scripts": [],
@@ -54,7 +56,8 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
-    "component": {}
+    "styleExt": "scss",
+    "component": {
+    }
   }
 }
